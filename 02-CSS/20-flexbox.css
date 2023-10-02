@@ -1,0 +1,28 @@
+  .box1{
+    background-color: red;
+    flex: 1 0 100px;
+  }
+  .box2{
+    background-color: yellow;
+    flex: 1 1 100px;
+  }
+  .box3{
+    background-color: yellowgreen;
+    flex: 3 1 100px;
+  }
+  .box4{
+    background-color: pink;
+    flex: 1 1 100px;
+  }
+    /*.container div{/* class ismi cotainer olan elemanın içindeki divler
+    width: 70px;
+  }*/
+  .container{/* div'ler yanyana geldi*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    height: 50vh;
+    gap: 1rem;
+  }

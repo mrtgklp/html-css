@@ -1,0 +1,23 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav.menu {
+    text-align: center;
+    background-color: gainsboro;
+    width: 150px;
+
+}
+
+.active{
+    background-color: black;
+}
+
+a.link{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
